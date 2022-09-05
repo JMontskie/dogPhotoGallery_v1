@@ -31,6 +31,10 @@ body{
     /* background-color: green; */
 }
 
+.gallery:after {
+    content: "";
+    width: 350px;
+}
 /*flex-items*/
 .gallery img{
     width: 100%;
