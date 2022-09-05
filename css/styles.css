@@ -17,6 +17,7 @@ body{
     border-bottom: 4px solid #000040;
 }
 
+/*flex-container*/
 .gallery{
     display: flex;
     flex-direction: row;
@@ -26,13 +27,16 @@ body{
     padding: 20px 10px;
     max-width: 1500px;
     margin: 0 auto;
+    gap: 16px;
     /* background-color: green; */
 }
 
+/*flex-items*/
 .gallery img{
     width: 100%;
     max-width: 350px;
     height: 300px;
+    object-fit: cover; /*tries to put the whole content inside the container the element is in*/
     /* margin: 5px; */
-     object-fit: cover; /*tries to put the whole content inside the container the element is in*/
+    border-radius: 10px;
 }
