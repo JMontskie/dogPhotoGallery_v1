@@ -34,4 +34,5 @@ body{
     max-width: 350px;
     height: 300px;
     /* margin: 5px; */
+     object-fit: cover; /*tries to put the whole content inside the container the element is in*/
 }
